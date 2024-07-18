@@ -58,4 +58,6 @@ public class PrestamoController {
         List<Pago> pagos = prestamoService.calcularPagos(fechaActual, cliente, tasaIva, diasAnoComercial);
         return new ResponseEntity<>(pagos, HttpStatus.OK);
     }
+
+
 }
