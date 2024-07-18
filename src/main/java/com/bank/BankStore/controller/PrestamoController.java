@@ -47,7 +47,7 @@ public class PrestamoController {
     @Operation(summary = "Prestamos Pagos", description = "Solicitud HTTP para obtener el pago por prestamo")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Éxito"),
-            @ApiResponse(responseCode = "500", description = "Error interno del servidor")
+            @ApiResponse(responseCode = "500", description = "Error interno del servidor ")
     })
     @PostMapping("/prestamos/pagos")
     public ResponseEntity<List<Pago>> calcularPagos(@RequestBody DatoEntrada datosEntrada) {
