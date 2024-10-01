@@ -1,7 +1,7 @@
-package com.bank.BankStore.service.impl;
+package com.bank.prestamo.service.impl;
 
-import com.bank.BankStore.entity.Tasas;
-import com.bank.BankStore.repository.TasasRepository;
+import com.bank.prestamo.entity.Tasas;
+import com.bank.prestamo.repository.TasasRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +16,6 @@ public class TasasServiceImpl {
     TasasRepository tasasRepository;
 
     public Double tasaInteres(Long plazo) {
-        log.info("****************************************************************************************");
         List<Tasas> tasasList = tasasRepository.findTasasByPlazoMaximo(plazo);
         Optional<Tasas> tasaOpt = tasasList.stream()
                 .filter(t -> t.getPlazo_minimo() <= plazo)

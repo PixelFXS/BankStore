@@ -1,9 +1,9 @@
-package com.bank.BankStore.service.impl;
+package com.bank.prestamo.service.impl;
 
-import com.bank.BankStore.ResponseDTO.Pago;
-import com.bank.BankStore.entity.Prestamo;
-import com.bank.BankStore.repository.PrestamoRepository;
-import com.bank.BankStore.service.IPrestamoService;
+import com.bank.prestamo.ResponseDTO.Pago;
+import com.bank.prestamo.entity.Prestamo;
+import com.bank.prestamo.repository.PrestamoRepository;
+import com.bank.prestamo.service.IPrestamoService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

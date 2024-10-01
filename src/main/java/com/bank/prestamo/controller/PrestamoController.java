@@ -1,9 +1,9 @@
-package com.bank.BankStore.controller;
+package com.bank.prestamo.controller;
 
-import com.bank.BankStore.ResponseDTO.DatoEntrada;
-import com.bank.BankStore.ResponseDTO.Pago;
-import com.bank.BankStore.entity.Prestamo;
-import com.bank.BankStore.service.impl.PrestamoServiceImpl;
+import com.bank.prestamo.ResponseDTO.DatoEntrada;
+import com.bank.prestamo.ResponseDTO.Pago;
+import com.bank.prestamo.entity.Prestamo;
+import com.bank.prestamo.service.impl.PrestamoServiceImpl;
 import io.swagger.annotations.Api;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;

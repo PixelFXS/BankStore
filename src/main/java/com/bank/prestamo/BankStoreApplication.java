@@ -1,4 +1,4 @@
-package com.bank.BankStore;
+package com.bank.prestamo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package com.bank.BankStore.repository;
+package com.bank.prestamo.repository;
 
-import com.bank.BankStore.entity.Tasas;
+import com.bank.prestamo.entity.Tasas;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

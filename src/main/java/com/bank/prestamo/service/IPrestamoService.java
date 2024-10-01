@@ -1,9 +1,8 @@
-package com.bank.BankStore.service;
+package com.bank.prestamo.service;
 
-import com.bank.BankStore.ResponseDTO.Pago;
-import com.bank.BankStore.entity.Prestamo;
+import com.bank.prestamo.ResponseDTO.Pago;
+import com.bank.prestamo.entity.Prestamo;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 

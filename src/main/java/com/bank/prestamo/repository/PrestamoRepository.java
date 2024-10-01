@@ -1,6 +1,6 @@
-package com.bank.BankStore.repository;
+package com.bank.prestamo.repository;
 
-import com.bank.BankStore.entity.Prestamo;
+import com.bank.prestamo.entity.Prestamo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.*;
 

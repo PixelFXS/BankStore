@@ -1,7 +1,6 @@
-package com.bank.BankStore.ResponseDTO;
+package com.bank.prestamo.ResponseDTO;
 import lombok.Data;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Data

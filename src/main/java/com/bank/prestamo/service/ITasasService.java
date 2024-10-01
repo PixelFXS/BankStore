@@ -1,4 +1,4 @@
-package com.bank.BankStore.service;
+package com.bank.prestamo.service;
 
 public interface ITasasService {
 }
