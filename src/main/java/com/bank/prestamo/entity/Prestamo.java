@@ -9,7 +9,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
-//estas son anotaciones de LOMBOK kumi
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
